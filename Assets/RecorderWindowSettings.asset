@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0205cb8957891b44b142689caa23987, type: 3}
+  m_Name: RecorderWindowSettings
+  m_EditorClassIdentifier: 
+  m_Settings: {fileID: 114106294601265566}
+--- !u!114 &114106294601265566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06397f605c749fe4dbe2df4bbd1ef4a1, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: cb8f4dbadafa4894c9dbc98a9daef07d
+  m_CaptureEveryNthFrame: 69
+  m_FrameRateMode: 1
+  m_FrameRate: 60
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 10
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: image_<0000>.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: /Recordings/Take5
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114352684818075654}
+    ownerRecorderSettingsAssetId: cb8f4dbadafa4894c9dbc98a9daef07d
+  m_RecorderTypeName: UnityEngine.Recorder.ImageRecorder, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  m_OutputFormat: 0
+--- !u!114 &114352684818075654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: e29e6765-7171-4226-b736-95d5b8018086
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: 91f4b1a7-8d88-42b2-a7a3-f525ee35f0d9
+  m_OutputSize: 4320
+  m_AspectRatio: 3
+  m_ForceEvenSize: 0
+  source: 4
+  m_CameraTag: 
+  m_FlipFinalOutput: 0
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
